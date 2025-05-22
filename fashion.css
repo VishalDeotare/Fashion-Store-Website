@@ -1,0 +1,92 @@
+* {
+  margin: 0px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fashion {
+  background: #806bdc;
+  height: 80px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.nav_item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+li img {
+  width: 80px;
+}
+
+.banner_table {
+  background-color: rgb(185, 185, 185);
+  height: 500px;
+  align-content: center;
+  text-align: center;
+}
+
+.Banner {
+  transform: scale(2.2, 1.5);
+}
+
+.table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 1400px;
+  font-size: 1.2rem;
+}
+th {
+  background-color: #806bdc;
+  height: 50px;
+}
+td {
+  border: 1px solid black;
+  height: 50px;
+}
+.table_container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.section {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h1,
+h3,
+p {
+  margin-left: 100px;
+  width: 1300px;
+  color: gray;
+}
+
+.UL {
+  list-style: disc;
+  margin-left: 155px;
+  color: gray;
+}
+
+.footer {
+  background-color: black;
+  color: white;
+  height: 80px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
